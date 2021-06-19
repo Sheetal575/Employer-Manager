@@ -1,0 +1,35 @@
+.row{
+   padding: 2%;
+}
+mat-card{
+    margin:1%;
+    padding:1%
+}
+h1{
+    font-weight: 500;
+    padding: 0% !important;
+    margin: 0.5% !important;
+}
+h3{
+    color: rgb(156, 156, 156);
+    padding: 0% !important;
+    margin: 0.5% !important;
+}
+.design{
+    width:fit-content;
+    border-radius: 8px 8px 8px 8px;
+    padding: 2%;
+    margin: 0.5% !important;
+    color: white;
+}
+.save{
+    background-color: rgb(110, 98, 163);
+    color: white;
+
+    font-weight: 400;
+    
+}
+.delete{
+    color: rgb(240, 44, 44);
+    border-color: rgb(240, 44, 44);
+}

@@ -1,0 +1,36 @@
+img{
+    width: 70%;
+}
+.back{
+    background-color: rgb(110, 98, 163);
+    font-size: 15px;
+
+}
+.back:hover{
+    background-color: rgb(110, 98, 163);
+    color: white;
+    
+}
+mat-icon{
+    font-weight: 500;
+}
+.main{
+    padding: 15px;
+}
+mat-form-field{
+    width: 100%;
+    padding: 0% !important;
+    margin: 0% !important;
+}
+form{
+    width: 100%;
+    padding: 10%;
+    color: rgb(110, 98, 163);
+}
+.save{
+    background-color: rgb(110, 98, 163);
+    color: white;
+
+    font-weight: 400;
+    
+}

@@ -1,0 +1,56 @@
+<div fxLayout="row" fxLayout.sm="column" fxLayout.xs="column" class="main">
+    <div fxFlex="50%" fxLayoutAlign="center" fxLayout="column">
+        <div>
+            <button mat-mini-fab  routerLink="/" class="back">
+                <mat-icon>arrow_back</mat-icon>
+            </button>
+        </div>
+        <div fxLayoutAlign="center">
+            <img src="../../../assets/emloye.png" alt="">
+        </div>
+       
+    </div>
+    <div fxFlex="50%" fxLayoutAlign="center center">
+       <form fxLayout="column" #employeForm = "ngForm"> 
+            <div fxLayout="column" >
+                <span>Enter Name</span>  
+                <mat-form-field appearance="legacy" >
+                    <input matInput 
+                           #name
+                           name="name"
+                           ngModel
+                           required
+                           
+                    >
+                </mat-form-field>
+            </div>
+            <div fxLayout="column" fxLayoutAlign="center ">
+                <span>Enter Position</span>
+                <mat-form-field appearance="legacy">
+                    <input matInput 
+                           #position
+                           name="position"
+                           ngModel
+                           required
+                    >
+                </mat-form-field>
+            </div>
+            <div fxLayout="column" fxLayoutAlign="center ">
+                <span>Enter Department</span>
+                <mat-form-field appearance="legacy">
+                    <input matInput 
+                           #dept
+                           name="dept"
+                           ngModel
+                           required
+                    >
+                </mat-form-field>
+            </div>
+            <div fxLayout="row" fxLayoutGap="10px">
+                <button mat-flat-button  class="save"  type="submit" (click)="save(employeForm)">save</button>
+                <button mat-stroked-button class="cancel" >Cancel</button>
+            </div>
+        
+       </form>
+    </div>
+</div>

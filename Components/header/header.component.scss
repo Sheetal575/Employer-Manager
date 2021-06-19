@@ -1,0 +1,30 @@
+mat-toolbar{
+    // background-color: white;
+    height: 10%;
+    background-color: rgb(110, 98, 163);
+    color: white;
+}
+h1{
+    font-size: 130%;
+}
+mat-divider{
+    padding: 0% !important;
+    margin: 0% !important;
+}
+button{
+    color: rgb(110, 98, 163);
+    font-size: 20px;
+    padding-top: 0.8px;
+    padding-bottom: 0.8px;
+}
+button:hover{
+    background-color: rgb(110, 98, 163);
+    color: white;
+    
+}
+mat-icon{
+    font-weight: 600;
+}
+.row{
+    padding: 13px;
+}
